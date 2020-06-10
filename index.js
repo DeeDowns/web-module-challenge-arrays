@@ -67,7 +67,7 @@ function addFlavor(arr, flavor){
     console.log(arr)
 }
 
-// addFlavor(originalFlavors, 'rainbow');
+// addFlavor(originalFlavors, 'Rainbow Sherbet');
 
 
 /* Task 3: Houston, we have a problem! There are now 32 flavors in the array! Your task is to remove an item from the end of the array. 
@@ -98,10 +98,10 @@ Your function should accept:
 For example, getFlavorByIndex(originalFlavors, 2) would return "Black Walnut", assuming Rainbow Sherbert has been added successfully. */
 
 function getFlavorByIndex(arr, index){
-    console.log(arr.indexOf(index))
+    return  arr[index]
 }
 
-getFlavorByIndex(originalFlavors, 2)
+console.log(getFlavorByIndex(originalFlavors, 2))
 
 /* Task 5: As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, as opposed to just arbitrarily removing the first or last flavor. Your task is to get an index by flavor name, and remove that flavor from the array. 
 
